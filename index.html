@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>OneStop - Educational Site</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="OneStop Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+                        <li class="nav-item">
+                            <!-- Add a Sign In / Sign Out button in the navbar -->
+                            <button class="btn btn-outline-light"><a href="signin.html" class="text-white">Sign In</a></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about">
+        <!-- About Section Content -->
+        
+    </section>
+
+    <section id="courses">
+        <!-- Courses Section Content -->
+    </section>
+
+    <section id="resources">
+        <!-- Resources Section Content -->
+    </section>
+
+    <!-- Bootstrap Carousel -->
+    <section id="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1.png" class="d-block w-100" alt="Image 1">
+                    <!-- Add a "Join Us" button with a link to the sign-in/sign-out page -->
+                    <div class="carousel-caption">
+                        <a href="signin.html" class="btn btn-primary btn-lg">Join Us</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.png" class="d-block w-100" alt="Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/3.png" class="d-block w-100" alt="Image 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section id="about">
+        <!-- About Section Content -->
+        <div class="container">
+            <h3>Ab</h3>
+            <!-- Benefit Section 1 -->
+            <div class="row rowstyle">
+                <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
+                    <div class="bluetext">Best-in-Class Instructors</div>
+                    <br>
+                    <div class="graytext">Empowering you with knowledge and skills.</div>
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12"><img src="images/instructor.png" alt width="100%"></div>
+            </div>
+            <hr> <!-- Add a horizontal line as a separator -->
+            <!-- Benefit Section 2 -->
+            <div class="row rowstyle">
+                <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
+                    <div class="bluetext">Weekly Assignments</div>
+                    <br>
+                    <div class="graytext">Ensuring your progress in a timely manner.</div>
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12"><img src="images/assignments.png" alt></div>
+            </div>
+            <hr> <!-- Add a horizontal line as a separator -->
+            <!-- Benefit Section 3 -->
+           
+            <!-- Benefit Section 4 -->
+            <div class="row rowstyle">
+                <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
+                    <div class="bluetext">Easy Credit Transfer</div>
+                    <br>
+                    <div class="graytext">Complementing your academic program.</div>
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12"><img src="images/credits_transfer.png" alt></div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="features">
+        <!-- Features Section Content -->
+    </section>
+
+    <footer>
+        <footer id="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6"> © 2023 OneStop. All rights reserved. </div>
+                <div class="col-sm-6">
+                  <div class="pull-right"> Made by : Educators </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+    </footer>
+
+    <!-- Add Bootstrap JS and jQuery scripts at the end of the body -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

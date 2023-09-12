@@ -1,0 +1,96 @@
+/* Reset some default styles */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0; /* Off-white background color */
+}
+
+/* Style the navbar */
+header {
+    background-color: #007BFF; /* Blue color */
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    max-height: 40px; /* Adjust the logo height as needed */
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the navbar with a blue background and white text */
+.navbar {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+}
+
+/* Style the navbar links */
+.navbar .nav-link {
+    color: white !important; /* White text color for navbar links */
+}
+
+/* Style the "Sign In / Sign Out" button */
+.navbar .btn-outline-light {
+    margin-right: 10px; /* Adjust the margin as needed */
+    color: white; /* White text color for the button */
+    border-color: white; /* White border color for the button */
+}
+
+/* Style the button text */
+.navbar .btn-outline-light a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the button on hover */
+.navbar .btn-outline-light:hover {
+    background-color: white; /* Change the background color on hover */
+    color: #007bff; /* Change the text color on hover to blue */
+}
+
+/* Style the "About" section */
+#about {
+    background-color: #fff; /* White background color */
+    padding: 40px 0; /* Add padding to the top and bottom */
+}
+
+/* Style the heading */
+#about h3 {
+    text-align: center;
+    color: #007bff; /* Blue text color */
+}
+
+/* Style the individual benefit sections */
+.rowstyle {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Style the benefit headings */
+.bluetext {
+    color: #007bff; /* Blue text color */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Style the benefit descriptions */
+.graytext {
+    color: #555; /* Gray text color */
+    font-size: 16px;
+}
+
+/* Style the images within the benefit sections */
+.rowstyle img {
+    max-width: 100%;
+    height: auto;
+}
